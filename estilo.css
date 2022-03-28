@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://www.cultture.com/pics/2021/01/por-que-amo-a-quirrel-de-hollow-knight-0.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cuadro {
+    background-color:rgba(39, 39, 39,0.8);
+    margin: 100px 600px 100px 100px;
+    padding: 30px;
+    color: whitesmoke;
+    border-radius: 2.5px;
+}
+
+.cuadro ul li {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.cuadro ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.cuadro ul li a:hover {
+    text-decoration: underline;
+}
