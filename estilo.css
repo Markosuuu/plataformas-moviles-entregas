@@ -4,16 +4,20 @@
 }
 
 body {
-    background: url(https://www.cultture.com/pics/2021/01/por-que-amo-a-quirrel-de-hollow-knight-0.jpg);
+    background: url(https://static.wikia.nocookie.net/hollowknight/images/0/05/Screenshot_HK_City_of_Tears_07.png/revision/latest/scale-to-width-down/2000?cb=20190219044533);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    font-size: 25px;
+}
+.titulo {
+    text-align: center;
 }
 
 .cuadro {
     background-color:rgba(39, 39, 39,0.8);
-    margin: 100px 600px 100px 100px;
+    margin: 100px 500px;
     padding: 30px;
     color: whitesmoke;
     border-radius: 2.5px;
@@ -31,4 +35,9 @@ body {
 
 .cuadro ul li a:hover {
     text-decoration: underline;
+}
+
+.tp li a:hover {
+    font-size: 27.5px;
+    color: rgb(85, 152, 240);
 }
