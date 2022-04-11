@@ -9,19 +9,19 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 25px;
+    font-size: 16px;
 }
 .titulo {
     text-align: center;
 }
 
-.titulo h1 img {
-    width: 500px;
+img {
+    width: 80%;
 }
 
 .cuadro {
     background-color:rgba(39, 39, 39,0.8);
-    margin: 100px 400px;
+    margin: 100px 350px;
     padding: 30px;
     color: whitesmoke;
     border-radius: 2.5px;
@@ -42,6 +42,6 @@ body {
 }
 
 .tp li a:hover {
-    font-size: 27.5px;
+    font-size: 18px;
     color: rgb(85, 152, 240);
 }
