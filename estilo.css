@@ -9,8 +9,8 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    font-size: 16px;
 }
+
 .titulo {
     text-align: center;
 }
@@ -21,7 +21,9 @@ img {
 
 .cuadro {
     background-color:rgba(39, 39, 39,0.8);
-    margin: 100px 350px;
+    width: 600px;
+    font-size: 16px;
+    margin: 100px auto;
     padding: 30px;
     color: whitesmoke;
     border-radius: 2.5px;
@@ -44,4 +46,12 @@ img {
 .tp li a:hover {
     font-size: 18px;
     color: rgb(85, 152, 240);
+}
+
+@media (max-width: 1080px) {
+    .cuadro {
+        width: 900px;
+        font-size: 28px;
+        margin: 700px auto;
+    }
 }
