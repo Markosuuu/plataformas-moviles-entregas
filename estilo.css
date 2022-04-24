@@ -45,7 +45,6 @@ img {
 
 .tp li a:hover {
     font-size: 18px;
-    color: rgb(85, 152, 240);
 }
 
 @media (max-width: 1080px) {
