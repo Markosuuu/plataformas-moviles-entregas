@@ -2,49 +2,60 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-overflow-x: hidden;
-background-color: rgb(255, 227, 232);;
+    overflow-x: hidden;
+    background-color: rgb(255, 227, 232);
 }
+
 .linea {
-height: 25px;
-width: 100%;
-background-color: rgb(255, 152, 169);
-font-size: 5px;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(255, 152, 169);
+    font-size: 5px;
 }
 .titulo {
-width: 300px;
+    width: 300px;   
 }
+
 .tarjeta {
-margin-top: 200px;
-text-align: center;
+    margin-top: 200px;
+    text-align: center;
 }
+
 .tarjeta .row {
-margin-top: 100px;
-margin-left: 80px;
+    margin-top: 100px;
+    margin-left: 80px;
 }
+
 .navbar-nav {
-margin-right: 100px;
+margin-right: 100px;    
 }
+
 .col-4:nth-of-type(1),
 .col-4:nth-of-type(4) {
-margin-bottom: 100px;
+    margin-bottom: 100px;
 }
+
 .card-img-top {
-border-radius: 25px;
+    border-radius: 25px;
 }
+
 .card {
-border: none;
+    border: none;
 }
+
 .navbar {
-text-decoration: none;
+    text-decoration: none;
 }
+
 .sanrio {
-position: absolute;
-width: 80px;
-left: 240px;
-top: 150px;
+    position: absolute;
+    width: 80px;
+    left: 240px;
+    top: 150px;
 }
+
 .carousel {
-margin-top: 15px;
+    margin-top: 15px;
 }
