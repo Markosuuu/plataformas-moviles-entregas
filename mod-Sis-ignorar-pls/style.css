@@ -8,45 +8,55 @@ body {
     background-color: rgb(255, 227, 232);
 }
 
-.linea {
-    height: 25px;
-    width: 100%;
-    background-color: rgb(255, 152, 169);
-    font-size: 5px;
-}
 .titulo {
-    width: 300px;   
-}
-
-.tarjeta {
-    margin-top: 200px;
-    text-align: center;
-}
-
-.tarjeta .row {
-    margin-top: 100px;
-    margin-left: 80px;
-}
-
-.navbar-nav {
-margin-right: 100px;    
-}
-
-.col-4:nth-of-type(1),
-.col-4:nth-of-type(4) {
-    margin-bottom: 100px;
-}
-
-.card-img-top {
-    border-radius: 25px;
-}
-
-.card {
-    border: none;
+    padding-right: 200px;   
 }
 
 .navbar {
     text-decoration: none;
+}
+
+.navbar-nav {
+    margin-right: 80px;    
+}
+
+.linea {
+    height: 25px;
+    width: 100%;
+    background-color: #ff98a9;
+    font-size: 5px;
+    color: white; 
+    padding-left: 150px; 
+    padding-top: 15px;
+}
+
+.carousel {
+    margin-top: 20px;
+}
+
+/*
+    Estilo de los productos destacados
+*/
+
+.tarjeta {
+    margin: 150px auto;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.tarjeta h2 {
+    color: #ff98a9;
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+.card {
+    border: none;
+    background-color: rgb(255, 227, 232);
+}
+
+.card-img-top {
+    border-radius: 20px;
 }
 
 .sanrio {
@@ -54,8 +64,4 @@ margin-right: 100px;
     width: 80px;
     left: 240px;
     top: 150px;
-}
-
-.carousel {
-    margin-top: 15px;
 }
