@@ -1,37 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow-x: hidden;
-    background-color: rgb(255, 227, 232);
+  overflow-x: hidden;
+  background-color: #ffe3e8;
 }
 
 .titulo {
-    padding-right: 200px;   
+  padding-right: 200px;
 }
 
 .navbar {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .navbar-nav {
-    margin-right: 80px;    
+  margin-right: 80px;
 }
 
 .linea {
-    height: 25px;
-    width: 100%;
-    background-color: #ff98a9;
-    font-size: 5px;
-    color: white; 
-    padding-left: 150px; 
-    padding-top: 15px;
+  height: 25px;
+  width: 100%;
+  background: #f8c0d4;
+  font-size: 5px;
+  color: white;
+  padding-left: 150px;
+  padding-top: 15px;
 }
 
 .carousel {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 /*
@@ -39,29 +39,59 @@ body {
 */
 
 .tarjeta {
-    margin: 150px auto;
-    margin-left: 50px;
-    text-align: center;
+  margin: 150px auto;
+  margin-left: 50px;
+  text-align: center;
 }
 
 .tarjeta h2 {
-    color: #ff98a9;
-    margin-bottom: 100px;
-    margin-right: 50px;
+  color: #ff98a9;
+  margin-bottom: 100px;
+  margin-right: 50px;
 }
 
 .card {
-    border: none;
-    background-color: rgb(255, 227, 232);
+  border: none;
+  background-color: #ffe3e8;
 }
 
 .card-img-top {
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .sanrio {
-    position: absolute;
-    width: 80px;
-    left: 240px;
-    top: 150px;
+  position: absolute;
+  width: 80px;
+  left: 240px;
+  top: 150px;
+}
+/* Reglas para el login */
+
+section .container {
+  width: 363px;
+  height: 484px;
+  left: 299px;
+  top: 150px;
+  background: rgb(255, 199, 199);
+  border-radius: 22px;
+}
+
+section .container img {
+  position: absolute;
+  width: 198px;
+  left: 850px;
+  top: 430px;
+}
+
+.text-capitalize {
+  margin-left: 75px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  background-color: #ff98a9;
+  border: #ff98a9;
+}
+.btn:hover {
+  background-color: #ff798f;
 }

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prototipo - Dulces Sanrio</title>
+    <title>Login - prototipo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -88,7 +88,7 @@
                   data-width="40"
                 ></span
               ></a>
-              <a class="nav-link link-light" href="login.html">Mi cuenta</a>
+              <a class="nav-link link-light" href="#">Mi cuenta</a>
             </li>
             <li class="nav-item">
               <a href="#"
@@ -109,96 +109,54 @@
     <div class="linea"></div>
 
     <!--
-        Carrusel
-      -->
-    <div class="container">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/carrusel-1.jpg" class="d-block w-100" alt="..." />
+        Login
+    -->
+    <section>
+      <div class="container my-5">
+        <!-- Form -->
+        <form action="" class="p-5 w-100">
+          <img src="img/mymelo-login.png" alt="mymelody" />
+          <h1 class="text-capitalize text-light">Login</h1>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">
+              <span class="iconify" data-icon="nimbus:mail"></span>
+            </span>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Email"
+              aria-label="Username"
+              aria-describedby="basic-addon1"
+            />
           </div>
-          <div class="carousel-item">
-            <img src="img/carrusel-2.jpg" class="d-block w-100" alt="..." />
+
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">
+              <span class="iconify" data-icon="nimbus:lock"></span>
+            </span>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Contraseña"
+              aria-label="Password"
+              aria-describedby="basic-addon1"
+            />
           </div>
-          <div class="carousel-item">
-            <img src="img/carrusel-3.jpg" class="d-block w-100" alt="..." />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <a href="#" class="link-light text-decoration-none"
+            >¿Olvidaste tu contraseña?</a
+          >
+          <button type="submit" class="btn btn-primary w-100 mt-3">
+            Iniciar sesión
+          </button>
+        </form>
       </div>
-    </div>
+    </section>
 
     <!--
-        Productos destacados
-      -->
-    <div class="tarjeta">
-      <div class="container">
-        <h2>Productos descatados</h2>
-        <div class="row">
-          <div class="col-12 mb-5 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/carrusel-1.jpg" class="card-img-top" alt="..." />
-              <img src="img/melody.png" alt="melody" class="sanrio" />
-            </div>
-          </div>
-          <div class="col-12 mb-5 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/carrusel-1.jpg" class="card-img-top" alt="..." />
-              <img src="img/kitty.png" alt="Kitty" class="sanrio" />
-            </div>
-          </div>
-          <div class="col-12 mb-5 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/carrusel-1.jpg" class="card-img-top" alt="..." />
-              <img src="img/kuromi.png" alt="Kuromi" class="sanrio" />
-            </div>
-          </div>
-          <div class="col-12 mb-5 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/carrusel-1.jpg" class="card-img-top" alt="..." />
-              <img src="img/kero.png" alt="Kero" class="sanrio" />
-            </div>
-          </div>
-          <div class="col-12 mb-5 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/carrusel-1.jpg" class="card-img-top" alt="..." />
-              <img src="img/pompom.png" alt="pompom" class="sanrio" />
-            </div>
-          </div>
-          <div class="col-12 mb-5 col-md-6 col-lg-4">
-            <div class="card" style="width: 18rem">
-              <img src="img/carrusel-1.jpg" class="card-img-top" alt="..." />
-              <img src="img/maru.png" alt="maru" class="sanrio" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--
+        <span class="iconify" data-icon="nimbus:mail"></span>
+        <span class="iconify" data-icon="nimbus:lock"></span>
         Footer
-      -->
+    -->
     <footer
       class="container-fluid text-light p-4"
       style="background-color: #ffb2c0"
