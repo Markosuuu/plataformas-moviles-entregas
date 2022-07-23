@@ -109,11 +109,7 @@ console.log("primeraLetraMayuscula(\"plataformas\"): ", primeraLetraMayuscula("p
 // Implementar una función "palabraAListaDeLetras" que dada una palabra me retorne un listado de sus letras
 // ejemplo: palabraAListaDeLetras("hola") retorna ['h', 'o', 'l', 'a'];
 var palabraAListaDeLetras = function(cadena) {
-    let lista = [];
-
-    for(var i = 0; i < cadena.length; i++) {
-        lista.push(cadena[i]);
-    }
+    let lista = cadena.split('');
 
     return lista;
 }
