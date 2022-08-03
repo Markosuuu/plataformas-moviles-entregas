@@ -67,20 +67,17 @@ body {
 }
 /* Reglas para el login */
 
-section .container {
-  width: 363px;
-  height: 484px;
-  left: 299px;
-  top: 150px;
-  background: rgb(255, 199, 199);
-  border-radius: 22px;
+section {
+  background-image: url(img/mymelo-login.png);
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
-section .container img {
-  position: absolute;
-  width: 198px;
-  left: 850px;
-  top: 430px;
+section .container {
+  width: 23.688rem;
+  height: 30.25rem ;
+  background: rgb(255, 199, 199);
+  border-radius: 22px;
 }
 
 .text-capitalize {
