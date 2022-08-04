@@ -28,6 +28,7 @@ body {
   color: white;
   padding-left: 150px;
   padding-top: 15px;
+  text-align: center;
 }
 
 .carousel {
@@ -65,23 +66,28 @@ body {
   left: 240px;
   top: 150px;
 }
+
 /* Reglas para el login */
 
-section {
-  background-image: url(img/mymelo-login.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-}
-
-section .container {
-  width: 23.688rem;
-  height: 30.25rem ;
+section .container:not(form .container) {
+  width: 363px;
+  height: 484px;
+  left: 299px;
+  top: 150px;
   background: rgb(255, 199, 199);
   border-radius: 22px;
 }
 
+section .container form img {
+  position: absolute;
+  width: 198px;
+  top: 0;
+  margin-top: 430px;
+  margin-left: 400px;
+}
+
 .text-capitalize {
-  margin-left: 75px;
+  text-align: center;
   margin-bottom: 80px;
 }
 
