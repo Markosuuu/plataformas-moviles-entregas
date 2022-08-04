@@ -67,6 +67,10 @@ body {
   top: 150px;
 }
 
+footer {
+  margin-top: 200px;
+}
+
 /* Reglas para el login */
 
 section .container:not(form .container) {
@@ -76,6 +80,13 @@ section .container:not(form .container) {
   top: 150px;
   background: rgb(255, 199, 199);
   border-radius: 22px;
+}
+
+@media (max-width: 320px) {
+  section .container:not(form .container) {
+    width: 280px;
+    padding: 0;
+  }
 }
 
 section .container form img {
