@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.pokemon-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  width: 80%;
+  margin: 20px auto 40px;
+}
+
+@media (max-width: 768px) {
+    .pokemon-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 425px) {
+    .pokemon-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.pokemon-block {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+}
+
+.pokemon-block p {
+  margin: 5px;
+}
+
+/* bts */
+.name {
+  text-transform: capitalize;
+  font-weight: bold; 
+  font-size: 1.2rem;
+}
+
+#spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.pagination {
+  width: 90%;
+  margin: 0 auto 50px;
+}
+
+.card-container {
+  width: 100%;
+  height: 100%;
+}
+
